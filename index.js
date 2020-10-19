@@ -51,12 +51,12 @@ let currentMinutes = currentDate.getMinutes();
 console.log(currentMinutes);
 
 let monthDateHourMin = document.querySelector("#month-date");
-monthDateHourMin.innerHTML = `${currentMonth} ${todaysDate}, ${currentYear} | ${currentHour}:${currentMinutes}`;
+monthDateHourMin.innerHTML = `${currentMonth} ${todaysDate}, ${currentYear} ${currentHour}:${currentMinutes}`;
 if (currentHour < 10) {
-  monthDateHourMin.innerHTML = `${currentMonth} ${todaysDate}, ${currentYear} | 0${currentHour}:${currentMinutes}`;
+  monthDateHourMin.innerHTML = `${currentMonth} ${todaysDate}, ${currentYear} 0${currentHour}:${currentMinutes}`;
 }
 if (currentMinutes < 10) {
-  monthDateHourMin.innerHTML = `${currentMonth} ${todaysDate}, ${currentYear} | ${currentHour}:0${currentMinutes}`;
+  monthDateHourMin.innerHTML = `${currentMonth} ${todaysDate}, ${currentYear} ${currentHour}:0${currentMinutes}`;
 }
 
 //Feature 1 (Homework - week 5)
