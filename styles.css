@@ -31,6 +31,7 @@ a:hover {
   border-radius: 20px;
   background-color: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
   max-width: 50%;
+  margin: 15px auto 0;
 }
 
 .currentdayweather .card {
