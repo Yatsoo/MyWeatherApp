@@ -86,3 +86,9 @@ a:hover {
 .weeklytemperature .col {
   text-align: center;
 }
+
+.source-code {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
